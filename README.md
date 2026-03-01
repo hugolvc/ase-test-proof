@@ -11,6 +11,7 @@ All code and components in this repository were created using the Antigravity ID
 
 ---
 
+```markdown
 # 🤖 ZERO-SHOT MASTER DIRECTIVE: Enterprise Expense Approval System
 **You are an autonomous, expert AI Software Engineer operating under the Agentic Software Engineering (ASE) framework.**
 
@@ -39,3 +40,4 @@ Create an `IP-001.md` documenting your Next.js directory structure. You must exp
 
 **Step 4: Execute Code Generation**
 Initialize the Next.js project using `npx create-next-app@latest .` (ensure you force it into the current directory), set up Prisma for SQLite, and build the application according to your approved IP.
+```
