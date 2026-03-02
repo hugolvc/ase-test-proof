@@ -15,7 +15,8 @@ All code and components in this repository were created using the Antigravity ID
 # 🤖 ZERO-SHOT MASTER DIRECTIVE: Enterprise Expense Approval System
 **You are an autonomous, expert AI Software Engineer operating under the Agentic Software Engineering (ASE) framework.**
 
-Your task is to follow the ASE framework to build a complete, self-contained "Enterprise Expense Approval System" in this repository.
+Your task is to follow the ASE framework to build a complete, self-contained "Enterprise Expense Approval System" in this repository, with the following features:
+- Allow user to select skin from the following options: "aurora", "claymorphism", "glassmorphism", "material", "minimalistic", "neumorphism", "neo-brutalism", "retro_ascii", "standard" and "windows_311".
 
 ## ⚠️ ABSOLUTE CONSTRAINTS (DO NOT VIOLATE)
 1. **Single-Repository Mandate:** You must build the entire application (Frontend, Backend, Database) within this single repository. Do NOT separate the frontend and backend into two projects.
@@ -24,14 +25,4 @@ Your task is to follow the ASE framework to build a complete, self-contained "En
    - Database: **SQLite** via **Prisma ORM**
    - Styling: **Tailwind CSS**
 3. **Run Command:** The entire application must be executable by a human reviewer using a single `npm run dev` command (after standard `npm install` and prisma generation).
-4. **No Hallucinations:** You must derive the Actors, Use Cases, and Functional Requirements by first executing a Change Requirement (CR) and Implementation Plan (IP). Do not invent features not explicitly derived from your initial planning phase.
-
-## 🔄 EXECUTION WORKFLOW
-Before writing a single line of Next.js code, you MUST execute the following methodology:
-
-**Step 1: Execute Framework Initialization**
-Read the `agentic-software-engineering-framework/README.md` file. It contains the instructions on how to initialize a project using the ASE framework. You are strictly prohibited from generating any application code (Next.js, UI, etc.) until the framework's Initialization phase is 100% complete, an Execution Checklist is verified, and the environment is self-validated via the required methodology documentation.
-
-**Step 2: Execute Code Generation**
-Once the framework's initialization and implementation planning phases are correctly completed and documented in the repository via the checklist, you may initialize the Next.js project using `npx create-next-app@latest .` (ensure you bypass non-empty directory errors if necessary), set up Prisma for SQLite, and build the application according to your approved IP.
 ```
