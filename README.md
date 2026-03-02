@@ -41,3 +41,22 @@ Create an 'IP-001.md' documenting your Next.js directory structure. You must exp
 Step 4: Execute Code Generation
 Initialize the Next.js project using 'npx create-next-app@latest .' (ensure you force it into the current directory), set up Prisma for SQLite, and build the application according to your approved IP.
 ```
+
+## 🧪 Post-Generation Instructions (For the Human User)
+
+Once the AI agent announces that it has finished generating the codebase based on the Master Prompt above, you should execute the following to verify the output:
+
+1. **Verify the Registers are present:** Check the root directory for `actors_register.md`, `use_cases_register.md`, and `IP-001.md`.
+2. **Setup the Database:** 
+   ```bash
+   npx prisma generate
+   npx prisma db push
+   ```
+3. **Run the Application:**
+   ```bash
+   npm run dev
+   ```
+4. **Log the Result / Iterate:** If the application fails, throws an error, or the AI hallucinates, **do not manually fix the code**. Instead, start a new chat session with the AI, inform it of the failure, and have it update the Master Prompt and the `prompt_iteration_log.md` file.
+
+---
+**Note to AI Agents entering a new session:** If you are reading this repo to start a fresh test, you MUST first read `prompt_iteration_log.md` before executing anything to understand the history of our attempts.
