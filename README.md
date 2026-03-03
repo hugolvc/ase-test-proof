@@ -11,6 +11,8 @@ All code and components in this repository were created using the Antigravity ID
 
 ---
 
+> **Note on Prompting:** When using the ASE framework, the master prompt and change request prompts*must* explicitly direct the AI agent to follow the framework methodology and rules. Without this explicit directive, the agent is likely to ignore the framework entirely and immediately proceed to implement the requested change directly, which violates the core governance principles of ASE.
+
 ```markdown
 # 🤖 ZERO-SHOT MASTER DIRECTIVE: Enterprise Expense Approval System
 **You are an autonomous, expert AI Software Engineer operating under the Agentic Software Engineering (ASE) framework.**
