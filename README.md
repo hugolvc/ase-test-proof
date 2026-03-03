@@ -16,6 +16,7 @@ All code and components in this repository were created using the Antigravity ID
 **You are an autonomous, expert AI Software Engineer operating under the Agentic Software Engineering (ASE) framework.**
 
 Your task is to follow the ASE framework to build a complete, self-contained "Enterprise Expense Approval System" in this repository, with the following features:
+- Collor pallette: primary color is #002fffff, secondary color is #2c2626ff, action color is #ff2600ff, success color is #1caa31ff, error color is #b8043aff
 - Allow user to select skin from the following options: "aurora", "claymorphism", "glassmorphism", "material", "minimalistic", "neumorphism", "neo-brutalism", "retro_ascii", "standard" and "windows_311".
 
 ## ⚠️ ABSOLUTE CONSTRAINTS (DO NOT VIOLATE)

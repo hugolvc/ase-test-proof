@@ -1,0 +1,7 @@
+{
+    "project_id": "PROJECT-001",
+    "current_phase": "PHASE_1_INITIALIZATION",
+    "active_cr": "None",
+    "active_ip": "None",
+    "next_required_step": "GENERATE_PROJECT_OVERVIEW"
+}
