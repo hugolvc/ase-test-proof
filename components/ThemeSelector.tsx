@@ -8,7 +8,7 @@ export function ThemeSelector() {
     return (
         <select
             value={theme}
-            onChange={(e) => setTheme(e.target.value as any)}
+            onChange={(e) => setTheme(e.target.value as ReturnType<typeof useTheme>['theme'])}
             className="bg-white text-black p-1 rounded border border-gray-300"
         >
             {themes.map(t => (

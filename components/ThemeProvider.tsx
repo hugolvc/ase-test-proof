@@ -16,9 +16,12 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     const [mounted, setMounted] = useState(false)
 
     useEffect(() => {
+        const saved = localStorage.getItem('theme') as Theme | null
+        if (saved && saved !== 'standard') {
+            // eslint-disable-next-line react-hooks/set-state-in-effect
+            setTheme(saved)
+        }
         setMounted(true)
-        const saved = localStorage.getItem('theme') as Theme
-        if (saved) setTheme(saved)
     }, [])
 
     useEffect(() => {
