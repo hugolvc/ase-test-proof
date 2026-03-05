@@ -46,7 +46,7 @@ export default async function ManagerPage() {
                 <div className="flex flex-col gap-3">
                     {pending.length === 0 ? <p className="opacity-60">All caught up!</p> : null}
                     {pending.map((e) => (
-                        <div key={e.id} className="p-5 rounded flex justify-between items-center mb-2" style={{ border: 'var(--theme-border)' }}>
+                        <div key={e.id} className="p-5 rounded flex justify-between items-center mb-2" style={{ border: 'var(--theme-list-border, var(--theme-border))' }}>
                             <div>
                                 <p className="font-semibold">{e.description}</p>
                                 <p className="text-sm opacity-80">User: {e.userId} | {e.date.toLocaleDateString()}</p>

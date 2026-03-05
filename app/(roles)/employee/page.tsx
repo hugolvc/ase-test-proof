@@ -68,7 +68,7 @@ export default async function EmployeePage() {
                     <ul className="flex flex-col gap-2">
                         {expenses.length === 0 ? <p className="opacity-60">No expenses submitted yet.</p> : null}
                         {expenses.map((e) => (
-                            <li key={e.id} className="p-4 rounded flex justify-between items-center mb-3" style={{ border: 'var(--theme-border)' }}>
+                            <li key={e.id} className="p-4 rounded flex justify-between items-center mb-3" style={{ border: 'var(--theme-list-border, var(--theme-border))' }}>
                                 <div>
                                     <p className="font-semibold">{e.description}</p>
                                     <p className="text-sm opacity-80">{e.date.toLocaleDateString()}</p>
