@@ -1,6 +1,3 @@
 [submodule "agentic-software-engineering-framework"]
 	path = agentic-software-engineering-framework
 	url = git@github.com:hugolvc/agentic-software-engineering-framework.git
-[submodule "agentic-software-engineering"]
-	path = agentic-software-engineering
-	url = git@github.com:hugolvc/agentic-software-engineering.git
